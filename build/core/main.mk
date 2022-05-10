@@ -1,0 +1,1 @@
+include $(TOPDIR)vendor/ouvrir/build/core/version_props.mk
