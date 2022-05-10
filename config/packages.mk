@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig
 
-# Extra tools in Lineage
+# Extra tools in Ouvrir
 PRODUCT_PACKAGES += \
     7z \
     awk \

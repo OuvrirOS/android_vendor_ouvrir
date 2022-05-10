@@ -58,7 +58,7 @@ endif
 # Backup Services whitelist
 PRODUCT_COPY_FILES += \
     vendor/ouvrir/config/permissions/backup.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/backup.xml \
-    vendor/ouvrir/config/permissions/privapp-permissions-lineagehw.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-lineagehw.xml
+    vendor/ouvrir/config/permissions/privapp-permissions-ouvrirhw.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-ouvrirhw.xml
 
 # Copy all Ouvrir-specific init rc files
 $(foreach f,$(wildcard vendor/ouvrir/prebuilt/common/etc/init/*.rc),\
