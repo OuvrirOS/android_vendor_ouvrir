@@ -239,4 +239,4 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
 # Ouvrir_props
-$(call inherit-product, vendor/ouvrir/config/dot_props.mk)
+$(call inherit-product, vendor/ouvrir/config/ouvrir_props.mk)
